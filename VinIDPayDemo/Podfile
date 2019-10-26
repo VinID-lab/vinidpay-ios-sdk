@@ -6,6 +6,6 @@ target 'VinIDPayDemo' do
   use_frameworks!
 
   # Pods for VinIDPayDemo
-  pod 'VinIDPaySDK', :git => 'https://github.com/VinID-lab/vinidpay-sdk.git'
+  pod 'VinIDPaySDK', :git => 'https://github.com/VinID-lab/vinidpay-ios-sdk.git'
 
 end
