@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/VinID-lab/vinidpay-ios-sdk.git', :tag => s.version.to_s }
     
     s.ios.deployment_target = '9.0'
-    s.ios.vendored_frameworks = 'iOS/Frameworks/VinIDPaySDK.framework'
+    s.ios.vendored_frameworks = 'Frameworks/VinIDPaySDK.framework'
 end
