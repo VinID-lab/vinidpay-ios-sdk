@@ -73,7 +73,8 @@
 	</array>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
-		<string>one</string>
+		<string>com.vingroup.VinIDApp</string>
+		<string>com.vingroup.VinIDApp.UAT</string>
 	</array>
 </dict>
 </plist>

@@ -18,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[VinIDPay sharedInstance] setSandboxMode:YES];
     [[VinIDPay sharedInstance] setReturnURLScheme: @"com.vingroup.VinIDApp.Demo.vinidpay"];
     return YES;
 }

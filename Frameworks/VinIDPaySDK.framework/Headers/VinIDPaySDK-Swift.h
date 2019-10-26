@@ -208,6 +208,7 @@ SWIFT_CLASS("_TtC11VinIDPaySDK8VinIDPay")
 @interface VinIDPay : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) VinIDPay * _Nonnull sharedInstance;)
 + (VinIDPay * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic) BOOL sandboxMode;
 - (void)setReturnURLScheme:(NSString * _Nonnull)scheme;
 - (void)payWithOrderId:(NSString * _Nonnull)orderId signature:(NSString * _Nonnull)signature completionHandler:(void (^ _Nonnull)(NSString * _Nonnull, enum VinIDPayStatus))completionHandler;
 - (BOOL)handleReturnURL:(NSURL * _Nonnull)url;
@@ -434,6 +435,7 @@ SWIFT_CLASS("_TtC11VinIDPaySDK8VinIDPay")
 @interface VinIDPay : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) VinIDPay * _Nonnull sharedInstance;)
 + (VinIDPay * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic) BOOL sandboxMode;
 - (void)setReturnURLScheme:(NSString * _Nonnull)scheme;
 - (void)payWithOrderId:(NSString * _Nonnull)orderId signature:(NSString * _Nonnull)signature completionHandler:(void (^ _Nonnull)(NSString * _Nonnull, enum VinIDPayStatus))completionHandler;
 - (BOOL)handleReturnURL:(NSURL * _Nonnull)url;

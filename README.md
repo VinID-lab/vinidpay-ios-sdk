@@ -30,16 +30,26 @@ pod update
 - Copy and embeded `VinIDPaySDK.framework` in your project.
 - Since this is a universal framework, make sure to remove unused architectures from your app before releasing to AppStore.
 
+## Sandbox Mode
+
+If you wish to test the integration with VinID UAT app, you need to turn on sandbox mode. In your `AppDelegate` add the following:
+```Swift
+VinIDPay.sharedInstance.sandboxMode = true
+```
+
+The default value for `sandboxMode` is `false`.
+
 ## Setup for app switch
 
 #### Update query scheme
 
-To redirect users from your app to VinID App to start payment process, you must update your `Info.plist` file to support querying VinID App's scheme:
+To redirect users from your app to VinID App to start payment process, you must update your `Info.plist` file to support querying VinID App's scheme. The scheme is the app bundle ID, so if you use sandbox mode, make sure to add bundle ID of VinID UAT app also:
 
 ```
 <key>LSApplicationQueriesSchemes</key>
 <array>
-    <string>one</string>
+    <string>com.vingroup.VinIDApp</string>
+    <string>com.vingroup.VinIDApp.UAT</string>
 </array>
 ```
 

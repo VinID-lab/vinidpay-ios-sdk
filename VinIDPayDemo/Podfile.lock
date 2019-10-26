@@ -10,12 +10,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   VinIDPaySDK:
-    :commit: a9dd204b8a2a76d704b23d9b4f2f439a730e1cb8
+    :commit: 56ad237c0b2c822f2344b6db216a17be3617ab71
     :git: https://github.com/VinID-lab/vinidpay-ios-sdk.git
 
 SPEC CHECKSUMS:
-  VinIDPaySDK: 5fbd3c311f7be54ef6909d9649695e481f7638ac
+  VinIDPaySDK: e45614f7fd91bc050e1fd70413eb8ffb5762202b
 
 PODFILE CHECKSUM: 0253aa3dddedab9773f99aa9703c83f8ac57371f
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.4

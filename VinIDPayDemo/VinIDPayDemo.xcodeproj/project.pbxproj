@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,19 @@
 		DE61E8CD23629AF8001F66BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE61E8CB23629AF8001F66BD /* LaunchScreen.storyboard */; };
 		DE61E8D023629AF8001F66BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE61E8CF23629AF8001F66BD /* main.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE50637B2363FE4F00C36B8D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2EA897535F84C06F370489D6 /* Pods-VinIDPayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinIDPayDemo.debug.xcconfig"; path = "Target Support Files/Pods-VinIDPayDemo/Pods-VinIDPayDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,7 +124,8 @@
 				DE61E8B623629AF7001F66BD /* Sources */,
 				DE61E8B723629AF7001F66BD /* Frameworks */,
 				DE61E8B823629AF7001F66BD /* Resources */,
-				A3EBE825B0821870D9ECC284 /* [CP] Embed Pods Frameworks */,
+				DE50637B2363FE4F00C36B8D /* Embed Frameworks */,
+				B02AFE1B3E56F21B763B6F3C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,7 +204,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A3EBE825B0821870D9ECC284 /* [CP] Embed Pods Frameworks */ = {
+		B02AFE1B3E56F21B763B6F3C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
