@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   VinIDPaySDK:
-    :commit: 56ad237c0b2c822f2344b6db216a17be3617ab71
+    :commit: 54f32bc766abffd9a1c3e8f1ff31f5b2dcdf6049
     :git: https://github.com/VinID-lab/vinidpay-ios-sdk.git
 
 SPEC CHECKSUMS:
