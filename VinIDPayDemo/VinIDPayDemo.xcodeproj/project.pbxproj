@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8C67A5E5002DB80EE6641B5 /* Pods_VinIDPayDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51DE7DEE6C66A89E49E99F0E /* Pods_VinIDPayDemo.framework */; };
+		DE61E8BF23629AF7001F66BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE61E8BE23629AF7001F66BD /* AppDelegate.m */; };
+		DE61E8C223629AF7001F66BD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE61E8C123629AF7001F66BD /* SceneDelegate.m */; };
+		DE61E8C523629AF7001F66BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE61E8C423629AF7001F66BD /* ViewController.m */; };
+		DE61E8C823629AF7001F66BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE61E8C623629AF7001F66BD /* Main.storyboard */; };
+		DE61E8CA23629AF8001F66BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE61E8C923629AF8001F66BD /* Assets.xcassets */; };
+		DE61E8CD23629AF8001F66BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE61E8CB23629AF8001F66BD /* LaunchScreen.storyboard */; };
+		DE61E8D023629AF8001F66BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE61E8CF23629AF8001F66BD /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2EA897535F84C06F370489D6 /* Pods-VinIDPayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinIDPayDemo.debug.xcconfig"; path = "Target Support Files/Pods-VinIDPayDemo/Pods-VinIDPayDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		51DE7DEE6C66A89E49E99F0E /* Pods_VinIDPayDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VinIDPayDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7348ED9F8F0E6D57F66594DD /* Pods-VinIDPayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinIDPayDemo.release.xcconfig"; path = "Target Support Files/Pods-VinIDPayDemo/Pods-VinIDPayDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DE61E8BA23629AF7001F66BD /* VinIDPayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinIDPayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE61E8BD23629AF7001F66BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE61E8BE23629AF7001F66BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE61E8C023629AF7001F66BD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DE61E8C123629AF7001F66BD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DE61E8C323629AF7001F66BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE61E8C423629AF7001F66BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE61E8C723629AF7001F66BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE61E8C923629AF8001F66BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE61E8CC23629AF8001F66BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE61E8CE23629AF8001F66BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE61E8CF23629AF8001F66BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE61E8B723629AF7001F66BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C67A5E5002DB80EE6641B5 /* Pods_VinIDPayDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BF323B005D1CCFCF4E201A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EA897535F84C06F370489D6 /* Pods-VinIDPayDemo.debug.xcconfig */,
+				7348ED9F8F0E6D57F66594DD /* Pods-VinIDPayDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D65FC052121EAD8DCEFF889A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51DE7DEE6C66A89E49E99F0E /* Pods_VinIDPayDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE61E8B123629AF7001F66BD = {
+			isa = PBXGroup;
+			children = (
+				DE61E8BC23629AF7001F66BD /* VinIDPayDemo */,
+				DE61E8BB23629AF7001F66BD /* Products */,
+				6BF323B005D1CCFCF4E201A3 /* Pods */,
+				D65FC052121EAD8DCEFF889A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE61E8BB23629AF7001F66BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE61E8BA23629AF7001F66BD /* VinIDPayDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE61E8BC23629AF7001F66BD /* VinIDPayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DE61E8BD23629AF7001F66BD /* AppDelegate.h */,
+				DE61E8BE23629AF7001F66BD /* AppDelegate.m */,
+				DE61E8C023629AF7001F66BD /* SceneDelegate.h */,
+				DE61E8C123629AF7001F66BD /* SceneDelegate.m */,
+				DE61E8C323629AF7001F66BD /* ViewController.h */,
+				DE61E8C423629AF7001F66BD /* ViewController.m */,
+				DE61E8C623629AF7001F66BD /* Main.storyboard */,
+				DE61E8C923629AF8001F66BD /* Assets.xcassets */,
+				DE61E8CB23629AF8001F66BD /* LaunchScreen.storyboard */,
+				DE61E8CE23629AF8001F66BD /* Info.plist */,
+				DE61E8CF23629AF8001F66BD /* main.m */,
+			);
+			path = VinIDPayDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE61E8B923629AF7001F66BD /* VinIDPayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE61E8D323629AF8001F66BD /* Build configuration list for PBXNativeTarget "VinIDPayDemo" */;
+			buildPhases = (
+				14C7FB287A607EAC425CF402 /* [CP] Check Pods Manifest.lock */,
+				DE61E8B623629AF7001F66BD /* Sources */,
+				DE61E8B723629AF7001F66BD /* Frameworks */,
+				DE61E8B823629AF7001F66BD /* Resources */,
+				A3EBE825B0821870D9ECC284 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VinIDPayDemo;
+			productName = VinIDPayDemo;
+			productReference = DE61E8BA23629AF7001F66BD /* VinIDPayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE61E8B223629AF7001F66BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = VinID;
+				TargetAttributes = {
+					DE61E8B923629AF7001F66BD = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = DE61E8B523629AF7001F66BD /* Build configuration list for PBXProject "VinIDPayDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE61E8B123629AF7001F66BD;
+			productRefGroup = DE61E8BB23629AF7001F66BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE61E8B923629AF7001F66BD /* VinIDPayDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE61E8B823629AF7001F66BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE61E8CD23629AF8001F66BD /* LaunchScreen.storyboard in Resources */,
+				DE61E8CA23629AF8001F66BD /* Assets.xcassets in Resources */,
+				DE61E8C823629AF7001F66BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14C7FB287A607EAC425CF402 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VinIDPayDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3EBE825B0821870D9ECC284 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VinIDPayDemo/Pods-VinIDPayDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VinIDPayDemo/Pods-VinIDPayDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VinIDPayDemo/Pods-VinIDPayDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE61E8B623629AF7001F66BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE61E8C523629AF7001F66BD /* ViewController.m in Sources */,
+				DE61E8BF23629AF7001F66BD /* AppDelegate.m in Sources */,
+				DE61E8D023629AF8001F66BD /* main.m in Sources */,
+				DE61E8C223629AF7001F66BD /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE61E8C623629AF7001F66BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE61E8C723629AF7001F66BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE61E8CB23629AF8001F66BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE61E8CC23629AF8001F66BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE61E8D123629AF8001F66BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE61E8D223629AF8001F66BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE61E8D423629AF8001F66BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA897535F84C06F370489D6 /* Pods-VinIDPayDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F9QV93S49;
+				INFOPLIST_FILE = VinIDPayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vingroup.VinIDApp.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE61E8D523629AF8001F66BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7348ED9F8F0E6D57F66594DD /* Pods-VinIDPayDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F9QV93S49;
+				INFOPLIST_FILE = VinIDPayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vingroup.VinIDApp.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE61E8B523629AF7001F66BD /* Build configuration list for PBXProject "VinIDPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE61E8D123629AF8001F66BD /* Debug */,
+				DE61E8D223629AF8001F66BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE61E8D323629AF8001F66BD /* Build configuration list for PBXNativeTarget "VinIDPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE61E8D423629AF8001F66BD /* Debug */,
+				DE61E8D523629AF8001F66BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE61E8B223629AF7001F66BD /* Project object */;
+}
