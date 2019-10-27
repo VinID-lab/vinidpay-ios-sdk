@@ -4,8 +4,3 @@ framework module VinIDPaySDK {
   export *
   module * { export * }
 }
-
-module VinIDPaySDK.Swift {
-    header "VinIDPaySDK-Swift.h"
-    requires objc
-}

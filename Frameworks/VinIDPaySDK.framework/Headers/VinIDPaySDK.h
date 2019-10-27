@@ -14,6 +14,6 @@ FOUNDATION_EXPORT double VinIDPaySDKVersionNumber;
 //! Project version string for VinIDPaySDK.
 FOUNDATION_EXPORT const unsigned char VinIDPaySDKVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <VinIDPaySDK/PublicHeader.h>
+#import <VinIDPaySDK/VinIDPay.h>
 
 

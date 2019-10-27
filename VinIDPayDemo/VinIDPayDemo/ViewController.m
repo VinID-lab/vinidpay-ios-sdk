@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <VinIDPaySDK/VinIDPaySDK-Swift.h>
+#import <VinIDPaySDK/VinIDPaySDK.h>
 
 @interface ViewController ()
 

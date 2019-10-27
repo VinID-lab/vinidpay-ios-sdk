@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xn6-Kr-jLE">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--VinIDPay Example-->
+        <scene sceneID="zdn-fz-qba">
+            <objects>
+                <viewController id="9e7-f5-O1p" customClass="ViewController" customModule="ExampleApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vLe-bw-ZwN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHK-ax-opX">
+                                <rect key="frame" x="175" y="240" width="64" height="30"/>
+                                <state key="normal" title="Pay Now!"/>
+                                <connections>
+                                    <action selector="proceedPayment:" destination="9e7-f5-O1p" eventType="touchUpInside" id="gnx-S6-fQR"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter order id" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="gAj-x2-XDV">
+                                <rect key="frame" x="32" y="120" width="350" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter signature" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="zFC-Za-oaA">
+                                <rect key="frame" x="32" y="174" width="350" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="zFC-Za-oaA" firstAttribute="top" secondItem="gAj-x2-XDV" secondAttribute="bottom" constant="20" id="FSU-b5-oPf"/>
+                            <constraint firstItem="zFC-Za-oaA" firstAttribute="leading" secondItem="gIB-xo-FLQ" secondAttribute="leading" constant="32" id="PEQ-3C-PGi"/>
+                            <constraint firstItem="PHK-ax-opX" firstAttribute="centerX" secondItem="vLe-bw-ZwN" secondAttribute="centerX" id="VWl-hq-fcl"/>
+                            <constraint firstItem="gAj-x2-XDV" firstAttribute="top" secondItem="gIB-xo-FLQ" secondAttribute="top" constant="32" id="Xoc-Tc-MqN"/>
+                            <constraint firstItem="gIB-xo-FLQ" firstAttribute="trailing" secondItem="gAj-x2-XDV" secondAttribute="trailing" constant="32" id="iNV-Ig-b0r"/>
+                            <constraint firstItem="gAj-x2-XDV" firstAttribute="leading" secondItem="gIB-xo-FLQ" secondAttribute="leading" constant="32" id="ocv-3V-1p1"/>
+                            <constraint firstItem="gAj-x2-XDV" firstAttribute="leading" secondItem="gIB-xo-FLQ" secondAttribute="leading" constant="32" id="pIP-zq-aCy"/>
+                            <constraint firstItem="gIB-xo-FLQ" firstAttribute="trailing" secondItem="zFC-Za-oaA" secondAttribute="trailing" constant="32" id="sZL-Wx-1iv"/>
+                            <constraint firstItem="gIB-xo-FLQ" firstAttribute="trailing" secondItem="gAj-x2-XDV" secondAttribute="trailing" constant="32" id="vYC-Yf-mWY"/>
+                            <constraint firstItem="PHK-ax-opX" firstAttribute="top" secondItem="zFC-Za-oaA" secondAttribute="bottom" constant="32" id="xPF-NV-hcu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gIB-xo-FLQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="VinIDPay Example" id="9fL-Ld-mZI"/>
+                    <connections>
+                        <outlet property="orderTextField" destination="gAj-x2-XDV" id="Pv6-bc-4gw"/>
+                        <outlet property="signatureTextField" destination="zFC-Za-oaA" id="Czf-Pg-ubs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vst-ld-4FA" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1957.9710144927537" y="126.5625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="USV-gG-v0h">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Xn6-Kr-jLE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="m6o-cB-YNF">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9e7-f5-O1p" kind="relationship" relationship="rootViewController" id="j3C-IY-2rk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kDn-xT-QTa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="126.5625"/>
+        </scene>
+    </scenes>
+</document>

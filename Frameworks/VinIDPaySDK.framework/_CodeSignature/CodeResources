@@ -4,206 +4,56 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/VinIDPaySDK-Swift.h</key>
+		<key>Headers/VinIDPay.h</key>
 		<data>
-		5itmhVgarhUOxvL79LETwCQ3Kdk=
+		M082kkK4K5iloClHSZrrl35+cC4=
 		</data>
 		<key>Headers/VinIDPaySDK.h</key>
 		<data>
-		GSHXS0Z4cmGvv7j63uvwKrp+qQU=
+		wXZ4XFYm+TGV3UOa52rCKuF1vs8=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		2SiQgBnteDKSil4c0yE/4pUerW8=
 		</data>
-		<key>Modules/VinIDPaySDK.swiftmodule/arm.swiftdoc</key>
-		<data>
-		3/Ol1aDXvvChU931urrV3kkuVcA=
-		</data>
-		<key>Modules/VinIDPaySDK.swiftmodule/arm.swiftmodule</key>
-		<data>
-		Qf+avmnahRL02YNaJNQ0N2Hhbo4=
-		</data>
-		<key>Modules/VinIDPaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<data>
-		hAcaaF1WaZ22EphS4gz3dDvMeEY=
-		</data>
-		<key>Modules/VinIDPaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<data>
-		5hhLy2A2udDuO8a0BO4ybwyyvII=
-		</data>
-		<key>Modules/VinIDPaySDK.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		hAcaaF1WaZ22EphS4gz3dDvMeEY=
-		</data>
-		<key>Modules/VinIDPaySDK.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		5hhLy2A2udDuO8a0BO4ybwyyvII=
-		</data>
-		<key>Modules/VinIDPaySDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<data>
-		3/Ol1aDXvvChU931urrV3kkuVcA=
-		</data>
-		<key>Modules/VinIDPaySDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<data>
-		Qf+avmnahRL02YNaJNQ0N2Hhbo4=
-		</data>
-		<key>Modules/VinIDPaySDK.swiftmodule/armv7.swiftdoc</key>
-		<data>
-		3/Ol1aDXvvChU931urrV3kkuVcA=
-		</data>
-		<key>Modules/VinIDPaySDK.swiftmodule/armv7.swiftmodule</key>
-		<data>
-		Qf+avmnahRL02YNaJNQ0N2Hhbo4=
-		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		ZZOtrCwI/ZYRMcFvvAmqoozpsOY=
+		YwIv2ZnMbXWJxRBvIhBVP9vRVuU=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/VinIDPaySDK-Swift.h</key>
+		<key>Headers/VinIDPay.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5itmhVgarhUOxvL79LETwCQ3Kdk=
+			M082kkK4K5iloClHSZrrl35+cC4=
 			</data>
 			<key>hash2</key>
 			<data>
-			EYsGolKRazJrCo0VTTytC9nyfxm/GUGEIUspLqE4KPo=
+			vGx/Io5oNCioRODbHbANnlZMGKiKi1vU+QNM25HNEM4=
 			</data>
 		</dict>
 		<key>Headers/VinIDPaySDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GSHXS0Z4cmGvv7j63uvwKrp+qQU=
+			wXZ4XFYm+TGV3UOa52rCKuF1vs8=
 			</data>
 			<key>hash2</key>
 			<data>
-			tlp4QtDyzGDxi0DfPuji769cSuQ3bxs85aTgXFDUVnc=
-			</data>
-		</dict>
-		<key>Modules/VinIDPaySDK.swiftmodule/arm.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3/Ol1aDXvvChU931urrV3kkuVcA=
-			</data>
-			<key>hash2</key>
-			<data>
-			VQAKISvzZFRARyd2Tdt1j2psPITLi6al2i60clDYq3o=
-			</data>
-		</dict>
-		<key>Modules/VinIDPaySDK.swiftmodule/arm.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Qf+avmnahRL02YNaJNQ0N2Hhbo4=
-			</data>
-			<key>hash2</key>
-			<data>
-			1ECaNWzWrZD2ASE8bhdGV7r6fjFDfPy3V4/pdpz3JZQ=
-			</data>
-		</dict>
-		<key>Modules/VinIDPaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hAcaaF1WaZ22EphS4gz3dDvMeEY=
-			</data>
-			<key>hash2</key>
-			<data>
-			Lms9VCIYPHuioD9BSB2EFz/h4HyttkxjzKGmed8DvKw=
-			</data>
-		</dict>
-		<key>Modules/VinIDPaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5hhLy2A2udDuO8a0BO4ybwyyvII=
-			</data>
-			<key>hash2</key>
-			<data>
-			rc2agNeYhnaYiZNXk+hVwghQG0NNkDIMgkpGtfCfE/E=
-			</data>
-		</dict>
-		<key>Modules/VinIDPaySDK.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hAcaaF1WaZ22EphS4gz3dDvMeEY=
-			</data>
-			<key>hash2</key>
-			<data>
-			Lms9VCIYPHuioD9BSB2EFz/h4HyttkxjzKGmed8DvKw=
-			</data>
-		</dict>
-		<key>Modules/VinIDPaySDK.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5hhLy2A2udDuO8a0BO4ybwyyvII=
-			</data>
-			<key>hash2</key>
-			<data>
-			rc2agNeYhnaYiZNXk+hVwghQG0NNkDIMgkpGtfCfE/E=
-			</data>
-		</dict>
-		<key>Modules/VinIDPaySDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3/Ol1aDXvvChU931urrV3kkuVcA=
-			</data>
-			<key>hash2</key>
-			<data>
-			VQAKISvzZFRARyd2Tdt1j2psPITLi6al2i60clDYq3o=
-			</data>
-		</dict>
-		<key>Modules/VinIDPaySDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Qf+avmnahRL02YNaJNQ0N2Hhbo4=
-			</data>
-			<key>hash2</key>
-			<data>
-			1ECaNWzWrZD2ASE8bhdGV7r6fjFDfPy3V4/pdpz3JZQ=
-			</data>
-		</dict>
-		<key>Modules/VinIDPaySDK.swiftmodule/armv7.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3/Ol1aDXvvChU931urrV3kkuVcA=
-			</data>
-			<key>hash2</key>
-			<data>
-			VQAKISvzZFRARyd2Tdt1j2psPITLi6al2i60clDYq3o=
-			</data>
-		</dict>
-		<key>Modules/VinIDPaySDK.swiftmodule/armv7.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Qf+avmnahRL02YNaJNQ0N2Hhbo4=
-			</data>
-			<key>hash2</key>
-			<data>
-			1ECaNWzWrZD2ASE8bhdGV7r6fjFDfPy3V4/pdpz3JZQ=
+			o+NU/9OqGk04BUBr8o42dSBMyOnFtQttuMDmjrwxQ48=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZZOtrCwI/ZYRMcFvvAmqoozpsOY=
+			YwIv2ZnMbXWJxRBvIhBVP9vRVuU=
 			</data>
 			<key>hash2</key>
 			<data>
-			G+BJCuHMeiyht9E1qaJXZaEaRC+TPSKR5DESdgycelU=
+			iBl/W/5IRSZar10f/fN/aGeADabVj3zssgvvx9mln3o=
 			</data>
 		</dict>
 	</dict>

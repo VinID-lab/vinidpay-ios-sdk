@@ -67,7 +67,7 @@ Then in your `AppDelegate`'s `application:didFinishLaunchingWithOptions:` implem
 
 ```Swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-    VinIDPay.sharedInstance.setReturnURLScheme("com.your-company.Your-App.vinidpay")
+    VinIDPay.sharedInstance.returnURLScheme = "com.your-company.Your-App.vinidpay"
     return true
 }
 ```
@@ -114,6 +114,6 @@ Make sure to update your app behavior based on payment results returned from Vin
 
 ## Demo
 
-You can find the example app in this repo to test the integration with VinIDPay.
+You can find the example apps in Swift and Objective C in this repo to test the integration with VinIDPay.
 
-To run it, run `pod install` and then open VinIDPayDemo.xcworkspace in Xcode.
+To run it, run `pod install` and then open `.xcworkspace` file in Xcode.
