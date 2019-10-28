@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A8C67A5E5002DB80EE6641B5 /* Pods_VinIDPayDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51DE7DEE6C66A89E49E99F0E /* Pods_VinIDPayDemo.framework */; };
+		B4A3F7283E1D449CF4D00A39 /* Pods_VinIDPayDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D8CBF4B5B4E3F228ED1FDB /* Pods_VinIDPayDemo.framework */; };
 		DE61E8BF23629AF7001F66BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE61E8BE23629AF7001F66BD /* AppDelegate.m */; };
 		DE61E8C223629AF7001F66BD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE61E8C123629AF7001F66BD /* SceneDelegate.m */; };
 		DE61E8C523629AF7001F66BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE61E8C423629AF7001F66BD /* ViewController.m */; };
@@ -31,9 +31,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2EA897535F84C06F370489D6 /* Pods-VinIDPayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinIDPayDemo.debug.xcconfig"; path = "Target Support Files/Pods-VinIDPayDemo/Pods-VinIDPayDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		51DE7DEE6C66A89E49E99F0E /* Pods_VinIDPayDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VinIDPayDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7348ED9F8F0E6D57F66594DD /* Pods-VinIDPayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinIDPayDemo.release.xcconfig"; path = "Target Support Files/Pods-VinIDPayDemo/Pods-VinIDPayDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4A4684AC7FB8EBAF182C8DF1 /* Pods-VinIDPayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinIDPayDemo.debug.xcconfig"; path = "Target Support Files/Pods-VinIDPayDemo/Pods-VinIDPayDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		53D8CBF4B5B4E3F228ED1FDB /* Pods_VinIDPayDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VinIDPayDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE38119FD5ACD478E806AF76 /* Pods-VinIDPayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinIDPayDemo.release.xcconfig"; path = "Target Support Files/Pods-VinIDPayDemo/Pods-VinIDPayDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DE61E8BA23629AF7001F66BD /* VinIDPayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinIDPayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE61E8BD23629AF7001F66BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE61E8BE23629AF7001F66BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,28 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8C67A5E5002DB80EE6641B5 /* Pods_VinIDPayDemo.framework in Frameworks */,
+				B4A3F7283E1D449CF4D00A39 /* Pods_VinIDPayDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55C6BFCC1B6DDACC49B1A25D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53D8CBF4B5B4E3F228ED1FDB /* Pods_VinIDPayDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6BF323B005D1CCFCF4E201A3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2EA897535F84C06F370489D6 /* Pods-VinIDPayDemo.debug.xcconfig */,
-				7348ED9F8F0E6D57F66594DD /* Pods-VinIDPayDemo.release.xcconfig */,
+				4A4684AC7FB8EBAF182C8DF1 /* Pods-VinIDPayDemo.debug.xcconfig */,
+				BE38119FD5ACD478E806AF76 /* Pods-VinIDPayDemo.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		D65FC052121EAD8DCEFF889A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				51DE7DEE6C66A89E49E99F0E /* Pods_VinIDPayDemo.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DE61E8B123629AF7001F66BD = {
@@ -83,7 +83,7 @@
 				DE61E8BC23629AF7001F66BD /* VinIDPayDemo */,
 				DE61E8BB23629AF7001F66BD /* Products */,
 				6BF323B005D1CCFCF4E201A3 /* Pods */,
-				D65FC052121EAD8DCEFF889A /* Frameworks */,
+				55C6BFCC1B6DDACC49B1A25D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,12 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE61E8D323629AF8001F66BD /* Build configuration list for PBXNativeTarget "VinIDPayDemo" */;
 			buildPhases = (
-				14C7FB287A607EAC425CF402 /* [CP] Check Pods Manifest.lock */,
+				6C56F3012F82812AFB8BAA7D /* [CP] Check Pods Manifest.lock */,
 				DE61E8B623629AF7001F66BD /* Sources */,
 				DE61E8B723629AF7001F66BD /* Frameworks */,
 				DE61E8B823629AF7001F66BD /* Resources */,
 				DE50637B2363FE4F00C36B8D /* Embed Frameworks */,
-				B02AFE1B3E56F21B763B6F3C /* [CP] Embed Pods Frameworks */,
+				F0533F882179793FE3BBE723 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,7 +182,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		14C7FB287A607EAC425CF402 /* [CP] Check Pods Manifest.lock */ = {
+		6C56F3012F82812AFB8BAA7D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,7 +204,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B02AFE1B3E56F21B763B6F3C /* [CP] Embed Pods Frameworks */ = {
+		F0533F882179793FE3BBE723 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -369,7 +369,7 @@
 		};
 		DE61E8D423629AF8001F66BD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EA897535F84C06F370489D6 /* Pods-VinIDPayDemo.debug.xcconfig */;
+			baseConfigurationReference = 4A4684AC7FB8EBAF182C8DF1 /* Pods-VinIDPayDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -387,7 +387,7 @@
 		};
 		DE61E8D523629AF8001F66BD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7348ED9F8F0E6D57F66594DD /* Pods-VinIDPayDemo.release.xcconfig */;
+			baseConfigurationReference = BE38119FD5ACD478E806AF76 /* Pods-VinIDPayDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
