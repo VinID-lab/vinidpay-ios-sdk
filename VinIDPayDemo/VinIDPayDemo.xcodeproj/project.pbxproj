@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B630B139683D098899ACCE50 /* Pods_VinIDPayDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EBAE65DC79353C631F1920 /* Pods_VinIDPayDemo.framework */; };
 		DE61E8BF23629AF7001F66BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE61E8BE23629AF7001F66BD /* AppDelegate.m */; };
-		DE61E8C223629AF7001F66BD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE61E8C123629AF7001F66BD /* SceneDelegate.m */; };
 		DE61E8C523629AF7001F66BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE61E8C423629AF7001F66BD /* ViewController.m */; };
 		DE61E8C823629AF7001F66BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE61E8C623629AF7001F66BD /* Main.storyboard */; };
 		DE61E8CA23629AF8001F66BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE61E8C923629AF8001F66BD /* Assets.xcassets */; };
@@ -37,8 +36,6 @@
 		DE61E8BA23629AF7001F66BD /* VinIDPayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinIDPayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE61E8BD23629AF7001F66BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE61E8BE23629AF7001F66BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DE61E8C023629AF7001F66BD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		DE61E8C123629AF7001F66BD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		DE61E8C323629AF7001F66BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DE61E8C423629AF7001F66BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DE61E8C723629AF7001F66BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -100,8 +97,6 @@
 			children = (
 				DE61E8BD23629AF7001F66BD /* AppDelegate.h */,
 				DE61E8BE23629AF7001F66BD /* AppDelegate.m */,
-				DE61E8C023629AF7001F66BD /* SceneDelegate.h */,
-				DE61E8C123629AF7001F66BD /* SceneDelegate.m */,
 				DE61E8C323629AF7001F66BD /* ViewController.h */,
 				DE61E8C423629AF7001F66BD /* ViewController.m */,
 				DE61E8C623629AF7001F66BD /* Main.storyboard */,
@@ -231,7 +226,6 @@
 				DE61E8C523629AF7001F66BD /* ViewController.m in Sources */,
 				DE61E8BF23629AF7001F66BD /* AppDelegate.m in Sources */,
 				DE61E8D023629AF8001F66BD /* main.m in Sources */,
-				DE61E8C223629AF7001F66BD /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9F9QV93S49;
 				INFOPLIST_FILE = VinIDPayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -393,6 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9F9QV93S49;
 				INFOPLIST_FILE = VinIDPayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
