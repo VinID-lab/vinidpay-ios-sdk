@@ -27,7 +27,7 @@
     [self.view endEditing:YES];
     [[VinIDPay sharedInstance] payWithOrderId:self.orderIdTextField.text signature:self.signatureTextField.text completionHandler:^(NSString *orderId, VinIDPayStatus status) {
         
-        NSString* message = @"";
+        NSString *message = @"";
         
         switch (status) {
             case VinIDPayStatusAborted:
