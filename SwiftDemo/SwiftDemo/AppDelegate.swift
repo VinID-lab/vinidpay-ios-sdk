@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // important: set return URLScheme to get callback when payment completes
         VinIDPay.sharedInstance.sandboxMode = true
-        VinIDPay.sharedInstance.returnURLScheme = "com.vingroup.VinIDApp.ExampleApp.vinidpay"
+        VinIDPay.sharedInstance.returnURLScheme = "com.vingroup.VinIDApp.Demo.vinidpay"
         
         return true
     }
