@@ -27,5 +27,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         VinIDPay.sharedInstance.handleReturnURL(url)
         return true
     }
+    
+    // use this if app supports iOS 9
+    func application(_ application: UIApplication, handleOpen url: URL) -> Bool {
+        VinIDPay.sharedInstance.handleReturnURL(url)
+        return true
+    }
 }
 

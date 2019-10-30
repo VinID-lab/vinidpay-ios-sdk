@@ -26,4 +26,9 @@
     return [[VinIDPay sharedInstance] handleReturnURL:url];
 }
 
+// use this if app supports iOS 9
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    return [[VinIDPay sharedInstance] handleReturnURL:url];
+}
+
 @end
