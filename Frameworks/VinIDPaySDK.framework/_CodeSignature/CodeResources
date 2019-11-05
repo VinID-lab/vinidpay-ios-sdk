@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/VinIDPay.h</key>
 		<data>
-		M082kkK4K5iloClHSZrrl35+cC4=
+		V9bfQRMqh/TS2WKU9Z+sci/7iqw=
 		</data>
 		<key>Headers/VinIDPaySDK.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+9xupy+Ox37dS+2cHM++JuGLpLs=
+		9dkWF2ibiBvY4nSkP+rQrAaCVpI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -27,11 +27,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			M082kkK4K5iloClHSZrrl35+cC4=
+			V9bfQRMqh/TS2WKU9Z+sci/7iqw=
 			</data>
 			<key>hash2</key>
 			<data>
-			vGx/Io5oNCioRODbHbANnlZMGKiKi1vU+QNM25HNEM4=
+			e+XrUxwHq4GzPto4nz534Gpl7WuzmNWHvXnTPet4ceo=
 			</data>
 		</dict>
 		<key>Headers/VinIDPaySDK.h</key>

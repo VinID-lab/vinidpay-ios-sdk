@@ -112,6 +112,14 @@ VinIDPay.sharedInstance.pay(orderId: id, signature: signature) { (orderId, statu
 
 Make sure to update your app behavior based on payment results returned from VinIDPay SDK.
 
+## Check for app install
+
+If you need to check whether VinID app is installed in the device and ready for payment, check for `hasVinIDAppInstalled`:
+
+```Swift
+let hasInstalled = VinIDPay.sharedInstance.hasVinIDAppInstalled
+```
+
 ## Demo
 
 You can find the example apps in Swift and Objective C in this repo to test the integration with VinIDPay.

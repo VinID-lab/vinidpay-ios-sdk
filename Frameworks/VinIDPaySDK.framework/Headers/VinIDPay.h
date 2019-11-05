@@ -31,6 +31,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) VinIDPay * _
 
 @property (nonatomic) BOOL sandboxMode;
 @property (nonatomic, copy) NSString * _Nullable returnURLScheme;
+@property (nonatomic, readonly) BOOL hasVinIDAppInstalled;
 
 - (void)payWithOrderId:(NSString * _Nonnull)orderId signature:(NSString * _Nonnull)signature completionHandler:(void (^ _Nonnull)(NSString * _Nonnull, enum VinIDPayStatus))completionHandler;
 
