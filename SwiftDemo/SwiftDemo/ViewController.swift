@@ -18,7 +18,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    @IBAction func checkAppInstall(_ sender: Any) {
+        let hasInstalled = VinIDPay.sharedInstance.hasVinIDAppInstalled
+        let message = hasInstalled ? "App installed, ready to pay" : "App not installed"
+        
+        let controller = UIAlertController(title: nil, message: message, preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        controller.addAction(action)
+        present(controller, animated: true, completion: nil)
+    }
+    
     @IBAction func proceedPayment(_ sender: Any) {
         view.endEditing(true)
         guard let id = orderTextField.text,
