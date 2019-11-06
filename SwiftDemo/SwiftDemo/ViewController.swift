@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         guard let id = orderTextField.text,
             let signature = signatureTextField.text else { return }
         
-        VinIDPay.sharedInstance.pay(withOrderId: id, signature: signature) { [weak self] (id, status) in
+        VinIDPay.sharedInstance.pay(withOrderId: id, signature: signature, extraData: nil) { [weak self] (extraData, status) in
             var message = ""
             
             switch status {

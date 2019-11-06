@@ -25,7 +25,7 @@
 
 - (IBAction)proceedPayment:(id)sender {
     [self.view endEditing:YES];
-    [[VinIDPay sharedInstance] payWithOrderId:self.orderIdTextField.text signature:self.signatureTextField.text completionHandler:^(NSString *orderId, VinIDPayStatus status) {
+    [[VinIDPay sharedInstance] payWithOrderId:self.orderIdTextField.text signature:self.signatureTextField.text extraData:nil completionHandler:^(NSString *orderId, VinIDPayStatus status) {
         
         NSString *message = @"";
         

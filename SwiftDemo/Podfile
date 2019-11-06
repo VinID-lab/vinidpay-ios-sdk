@@ -5,5 +5,5 @@ target 'SwiftDemo' do
   use_frameworks!
 
   # Pods for SwiftDemo
-  pod 'VinIDPaySDK'
+  pod 'VinIDPaySDK', :path => '../'
 end

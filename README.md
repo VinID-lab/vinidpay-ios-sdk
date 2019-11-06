@@ -98,7 +98,7 @@ func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>)
 To start payment process with VinID app, you need to have already created an order with VinID and got the id and signature for the order. Proceed the payment by sending them to VinIDPay:
 
 ```Swift
-VinIDPay.sharedInstance.pay(orderId: id, signature: signature) { (orderId, status) in
+VinIDPay.sharedInstance.pay(orderId: id, signature: signature, extraData: nil) { (orderId, status) in
     switch status {
     case .success:
         print("payment successful!")

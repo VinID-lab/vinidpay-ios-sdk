@@ -5,6 +5,6 @@ target 'VinIDPayDemo' do
   use_frameworks!
 
   # Pods for VinIDPayDemo
-  pod 'VinIDPaySDK'
+  pod 'VinIDPaySDK', :path => '../'
 
 end
