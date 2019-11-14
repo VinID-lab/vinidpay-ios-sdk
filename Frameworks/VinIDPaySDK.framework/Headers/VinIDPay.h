@@ -39,6 +39,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) VinIDPay * _
      completionHandler:(void (^ _Nonnull)(NSString * _Nullable, enum VinIDPayStatus))completionHandler;
 
 - (BOOL)handleReturnURL:(NSURL * _Nonnull)url NS_SWIFT_NAME(handleReturnURL(_:));
+- (void)navigateToAppStore;
 
 @end
 

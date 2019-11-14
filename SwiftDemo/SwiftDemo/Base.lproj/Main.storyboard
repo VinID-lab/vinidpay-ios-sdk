@@ -40,9 +40,17 @@
                                     <action selector="checkAppInstall:" destination="9e7-f5-O1p" eventType="touchUpInside" id="jur-HJ-G8H"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Wv-vp-9ZN">
+                                <rect key="frame" x="133.5" y="339" width="147" height="30"/>
+                                <state key="normal" title="Navigate to AppStore"/>
+                                <connections>
+                                    <action selector="navigateToAppStore:" destination="9e7-f5-O1p" eventType="touchUpInside" id="HOm-YD-M6a"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="0Wv-vp-9ZN" firstAttribute="top" secondItem="IMj-TB-sUp" secondAttribute="bottom" constant="19" id="6my-ev-RY4"/>
                             <constraint firstItem="zFC-Za-oaA" firstAttribute="top" secondItem="gAj-x2-XDV" secondAttribute="bottom" constant="20" id="FSU-b5-oPf"/>
                             <constraint firstItem="zFC-Za-oaA" firstAttribute="leading" secondItem="gIB-xo-FLQ" secondAttribute="leading" constant="32" id="PEQ-3C-PGi"/>
                             <constraint firstItem="PHK-ax-opX" firstAttribute="centerX" secondItem="vLe-bw-ZwN" secondAttribute="centerX" id="VWl-hq-fcl"/>
@@ -51,6 +59,7 @@
                             <constraint firstItem="IMj-TB-sUp" firstAttribute="centerX" secondItem="vLe-bw-ZwN" secondAttribute="centerX" id="jIs-Um-wIR"/>
                             <constraint firstItem="gAj-x2-XDV" firstAttribute="leading" secondItem="gIB-xo-FLQ" secondAttribute="leading" constant="32" id="ocv-3V-1p1"/>
                             <constraint firstItem="gAj-x2-XDV" firstAttribute="leading" secondItem="gIB-xo-FLQ" secondAttribute="leading" constant="32" id="pIP-zq-aCy"/>
+                            <constraint firstItem="0Wv-vp-9ZN" firstAttribute="centerX" secondItem="vLe-bw-ZwN" secondAttribute="centerX" id="rZx-gm-qtz"/>
                             <constraint firstItem="gIB-xo-FLQ" firstAttribute="trailing" secondItem="zFC-Za-oaA" secondAttribute="trailing" constant="32" id="sZL-Wx-1iv"/>
                             <constraint firstItem="gIB-xo-FLQ" firstAttribute="trailing" secondItem="gAj-x2-XDV" secondAttribute="trailing" constant="32" id="vYC-Yf-mWY"/>
                             <constraint firstItem="IMj-TB-sUp" firstAttribute="top" secondItem="PHK-ax-opX" secondAttribute="bottom" constant="20" id="x7F-fo-Qwh"/>

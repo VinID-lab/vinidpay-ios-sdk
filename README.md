@@ -120,6 +120,13 @@ If you need to check whether VinID app is installed in the device and ready for 
 let hasInstalled = VinIDPay.sharedInstance.hasVinIDAppInstalled
 ```
 
+## Navigate to AppStore
+
+VinIDPay SDK also supports navigating user to AppStore:
+```Swift
+VinIDPay.sharedInstance.navigateToAppStore()
+```
+
 ## Demo
 
 You can find the example apps in Swift and Objective C in this repo to test the integration with VinIDPay.

@@ -29,6 +29,10 @@ class ViewController: UIViewController {
         present(controller, animated: true, completion: nil)
     }
     
+    @IBAction func navigateToAppStore(_ sender: Any) {
+        VinIDPay.sharedInstance.navigateToAppStore()
+    }
+    
     @IBAction func proceedPayment(_ sender: Any) {
         view.endEditing(true)
         guard let id = orderTextField.text,
