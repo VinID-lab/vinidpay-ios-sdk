@@ -55,7 +55,7 @@
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>com.vingroup.VinIDApp</string>
-		<string>com.vingroup.VinIDApp.UAT</string>
+		<string>com.vingroup.VinIDApp.sandbox</string>
 	</array>
 </dict>
 </plist>
