@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-  s.name = "VinIDPaySDK"
+  s.name = "VinIDPayA2A"
   s.version = "1.0.7"
-  s.summary = "VinIDPay iOS SDK"
+  s.summary = "VinIDPay iOS app to app SDK"
 
   s.description = <<-DESC
     VinIDPay iOS SDK helps you handle payments with VinID iOS app.
