@@ -49,7 +49,7 @@ To redirect users from your app to VinID App to start payment process, you must 
 <key>LSApplicationQueriesSchemes</key>
 <array>
     <string>com.vingroup.VinIDApp</string>
-    <string>com.one.oneid.sandbox</string>
+    <string>com.one.oneid.UAT</string>
 </array>
 ```
 
