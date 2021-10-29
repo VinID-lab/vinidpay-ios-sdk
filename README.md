@@ -17,7 +17,7 @@ pod init
 
 Then add VinIDPaySDK to your podfile:
 ```
-pod 'VinIDPaySDK'
+pod 'VinIDPayA2A'
 ```
 
 Install or update your pods afterwards with command:
